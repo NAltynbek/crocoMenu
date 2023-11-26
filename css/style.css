@@ -1,0 +1,339 @@
+html{
+	box-sizing:border-box
+}
+*,*::after,*::before{
+	box-sizing:inherit
+}
+body{
+	min-width:320px;
+	overflow-x:hidden
+}
+.container{
+	padding:0 10px
+}
+.header__bookmarks{
+	width:100%;
+	display:flex;
+	justify-content:space-around;
+	position:fixed;
+	top:-50px;
+	left:20px;
+	z-index:10
+}
+.animation__bookmark{
+	text-decoration:none
+}
+.animation__bookmark.active{
+	position:fixed;
+	top:0px
+}
+.animation__bookmark .bookmark{
+	position:relative;
+	top:-20px;
+	left:-43px
+}
+.logo{
+	height:50px;
+	position:absolute;
+	top:14px;
+	left:50%;
+	transform:translateX(-50%)
+}
+.head{
+	background-image:url("../img/burger.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+	min-height:193px
+}
+.top-slider{
+	background-color:rgba(33,33,33,0.5);
+	margin-top:100px
+}
+.top-slider__item{
+	color:#fff;
+	text-align:center;
+	min-height:200px
+}
+.top-slider .slick-dots{
+	display:flex;
+	justify-content:center;
+	position:absolute;
+	bottom:20px;
+	left:0;
+	right:0;
+	list-style-type:none;
+	padding:0
+}
+.top-slider .slick-dots .slick-active button{
+	background-color:transparent;
+	border:1px solid #04521b
+}
+.top-slider .slick-dots button{
+	font-size:0;
+	border:none;
+	background-color:#0A463C;
+	padding:0;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	margin:0 10px
+}
+.section__text{
+	font-family:'Roboto Slab', serif;
+	min-height:100px;
+	color:#0A463C;
+	font-size:15.127px;
+	font-weight:600;
+	text-transform:uppercase;
+	text-align:center;
+	margin-top:50px
+}
+.section__text-two{
+	color:#fff
+}
+.block{
+	background-color:#0A463C
+}
+.menu{
+	background-color:#0A463C;
+	padding-bottom:40px
+}
+.menu__image img{
+	min-width:100%
+}
+.menu__text{
+	max-width:180px;
+	height:30px;
+	background-color:#166C5D;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	position:relative;
+	top:-60px;
+	left:0
+}
+.menu__text .text{
+	color:#FFF;
+	text-align:center;
+	font-family:'Roboto Slab', serif;
+	font-size:15px;
+	font-weight:300;
+	text-transform:uppercase
+}
+.menu .text_two{
+	position:relative;
+	top:-15px
+}
+.menu__texts{
+	display:flex;
+	justify-content:space-around;
+	background-color:#0A463C
+}
+.menu__names,.menu__prices,.menu__volumes{
+	padding:10px
+}
+.menu__names .name,.menu__names .price,.menu__names .volume,.menu__prices .name,.menu__prices .price,.menu__prices .volume,.menu__volumes .name,.menu__volumes .price,.menu__volumes .volume{
+	color:#FFF;
+	font-family:'Barlow Semi Condensed', sans-serif;
+	font-size:13px;
+	font-weight:500;
+	padding-top:13px
+}
+.menu .name_descr{
+	color:#FFF;
+	font-family:'Roboto Slab', serif;
+	font-size:7px;
+	font-weight:300;
+	max-width:135px
+}
+.menu .pt17{
+	padding-bottom:17px
+}
+.menu__volumes{
+	position:relative;
+	left:40px
+}
+header,.section_two{
+	width:100%;
+	height:100vh;
+	background-color:#ffffff
+}
+.section{
+	min-height:98px
+}
+#header{
+	min-width:320px;
+	min-height:100vh;
+	background-color:#0A463C
+}
+.headerLogoAndText{
+	display:flex;
+	height:100%;
+	flex-direction:column;
+	justify-content:space-between;
+	align-items:center;
+	position:relative;
+	top:200px
+}
+.section__text-two{
+	position:absolute;
+	top:270px
+}
+.sheet__one{
+	position:relative;
+	top:-992px;
+	left:-146px
+}
+.sheet__two{
+	position:relative;
+	top:-419px;
+	right:-155px
+}
+.hello{
+	background-color:#fff;
+	position:relative
+}
+.hello__mask1{
+	position:absolute;
+	top:79px;
+	right:-10px
+}
+.hello__mask2{
+	position:absolute;
+	top:230px;
+	left:-10px
+}
+.hello__mask3{
+	position:absolute;
+	top:170px;
+	left:-10px
+}
+.hello__mask4{
+	position:absolute;
+	top:150px;
+	right:-10px
+}
+.hello__logo img{
+	display:block;
+	margin:0 auto;
+	padding:40px 0 35px 0
+}
+.hello__descr,.hello__descr-two{
+	max-width:210px;
+	color:#404040;
+	text-align:center;
+	font-family:'Roboto Slab', serif;
+	font-size:10px;
+	font-weight:400;
+	margin:0 auto 80px auto
+}
+.hello__logoInsta img{
+	width:90px;
+	height:90px;
+	display:block;
+	margin:0 auto
+}
+.hookah__logo img{
+	display:block;
+	margin:0 auto 30px auto
+}
+.hookah__names{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	padding:5px 0;
+	align-items:center
+}
+.hookah__namesText{
+	color:#404040;
+	font-family:'Barlow Semi Condensed', sans-serif;
+	font-size:12px;
+	font-weight:600;
+	text-transform:uppercase
+}
+.hookah__namesDescr{
+	margin-top:2px;
+	color:#404040;
+	font-family:'Barlow Semi Condensed', sans-serif;
+	font-size:7px;
+	font-weight:500;
+	width:140px
+}
+.hookah__namesImg{
+	width:100px;
+	display:flex;
+	justify-content:center;
+	align-items:center
+}
+.hookah__line:before{
+	content:'';
+	display:block;
+	width:100%;
+	height:0.812px;
+	background-color:#0A463C
+}
+.estimation{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	text-align:center;
+	align-items:center;
+	padding-top:30px
+}
+.estimation__text{
+	color:#404040;
+	font-family:'Barlow Semi Condensed', sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	max-width:40px
+}
+.styleList1{
+	position:absolute;
+	right:0%
+}
+.styleList2{
+	position:absolute;
+	right:0%;
+	top:1752px
+}
+.styleList3{
+	position:absolute;
+	top:210%
+}
+.menu_prices{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin:0 50px 20px 50px
+}
+.price_one{
+	display:flex;
+	align-items:center
+}
+.pricePhotoTwo{
+	padding-left:20px
+}
+.price{
+	color:#404040;
+	font-family:'Barlow Semi Condensed', sans-serif;
+	font-size:18px;
+	font-weight:600;
+	text-transform:uppercase
+}
+.menu_fruits{
+	display:flex;
+	justify-content:space-around
+}
+.fruits{
+	width:100px;
+	display:flex;
+	justify-content:space-between;
+	margin-left:50px;
+	margin-bottom:20px;
+	align-items:center
+}
+.top-slider__img{
+	max-width: 460px;
+}
+ 
